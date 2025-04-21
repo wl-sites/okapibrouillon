@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okapi - Eau Pure en Bouteille</title>
+    <meta name="description" content="Okapi propose l'eau en bouteille la plus pure pour vos besoins en hydratation. Découvrez nos produits et services.">
+    <meta name="keywords" content="eau en bouteille, eau pure, hydratation, livraison d'eau">
+    <meta name="author" content="Okapi">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Okapi Agro</h1>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Produits</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Commander</a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <video autoplay muted loop playsinline class="bg-video">
+            <source src="img/1104484_1080p_4k_3840x2160.mp4" type="video/mp4" />
+            Ton navigateur ne supporte pas les vidéos HTML5.
+        </video>
+        <h2>Eau Pure en Bouteille</h2>
+        <p>Restez hydraté avec l’eau la plus pure.</p>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Nos <span>Produits</span></h2>
+        <p>Découvrez notre gamme d'eaux en bouteille.</p>
+    
+        <div class="card-container">
+            <div class="card">
+                <img src="img/2151049007.jpg" alt="Produit 1">
+                <h3>Produit 1</h3>
+                <p>Eau en bouteille de haute qualité.</p>
+                <div class="star-review">
+                    <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/2151049007.jpg" alt="Produit 2">
+                <h3>Produit 2</h3>
+                <p>Emballage respectueux de l’environnement.</p>
+                <div class="star-review">
+                    <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span><span>&#9734;</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/2151049007.jpg" alt="Produit 3">
+                <h3>Produit 3</h3>
+                <p>Idéal pour l’hydratation en déplacement.</p>
+                <div class="star-review">
+                    <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="call-to-action">
+        <h2>Prêt à <span>vous hydrater</span> ?</h2>
+        <p>Commandez maintenant et goûtez à la pureté de notre eau.</p>
+        <a href="#" class="cta-button" id="order-now-btn">Commander</a>
+
+        <div id="overlay-order-form">
+            <div id="order-form">
+                <form action="">
+                    <h2>Passez votre commande</h2>
+                    <div class="form-group">
+                        <select id="product" name="product" required>
+                            <option value="product1">Produit 1</option>
+                            <option value="product2">Produit 2</option>
+                            <option value="product3">Produit 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" id="quantity" name="quantity" min="1" placeholder="Quantité souhaitée" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="address" name="address" rows="3" placeholder="Votre adresse de livraison" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="contact" name="contact" placeholder="Votre numéro de téléphone" required>
+                    </div>
+                    <button type="submit">Valider la commande</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <h2><span>FAQ</span></h2>
+        <p>Trouvez les réponses aux questions fréquentes sur nos produits et services.</p>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3>Quels sont les délais de livraison ?</h3>
+                <p>Nos délais de livraison varient entre 2 à 5 jours ouvrables selon votre localisation.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Vos bouteilles sont-elles recyclables ?</h3>
+                <p>Oui, toutes nos bouteilles sont fabriquées à partir de matériaux 100% recyclables.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Proposez-vous des abonnements ?</h3>
+                <p>Oui, nous proposons des abonnements mensuels pour une livraison régulière d'eau pure.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Comment puis-je modifier ma commande ?</h3>
+                <p>Vous pouvez modifier votre commande en nous contactant directement via notre formulaire de contact ou par téléphone.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sustainability"> 
+        <h2><span>Durabilité</span></h2>
+        <p>Découvrez nos pratiques éco-responsables.</p>
+        <p>Chez Okapi, nous nous engageons à réduire notre impact environnemental. Nos bouteilles sont fabriquées à partir de matériaux 100% recyclables, et nous soutenons activement les initiatives de conservation de l'eau.</p>
+        <a href="#partnerships" class="cta-button">Rejoignez notre engagement</a>
+    </section>
+
+    <section id="gallery">
+        <h2>Notre <span>Galerie</span></h2>
+        <p>Découvrez nos produits et installations en images.</p>
+        <div class="card-container">
+            <div class="card">
+                <img src="img/2147608356.jpg" alt="Image Galerie 1">
+                <h3>Nos Installations</h3>
+                <p>Centre d’embouteillage à la pointe de la technologie pour garantir la pureté.</p>
+            </div>
+            <div class="card">
+                <img src="img/2151049007.jpg" alt="Image Galerie 2">
+                <h3>Pratiques Éco-Responsables</h3>
+                <p>Engagés pour la durabilité et la protection de l’environnement.</p>
+            </div>
+            <div class="card">
+                <img src="img/2151196432.jpg" alt="Image Galerie 3">
+                <h3>Nos Produits</h3>
+                <p>Eau en bouteille de haute qualité pour chaque occasion.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="partnerships">
+        <h2>Nos <span>Partenariats</span></h2>
+        <p>Collaborez avec nous pour faire la différence. Nous travaillons avec des organisations et des particuliers partageant notre vision d’un avenir durable. Ensemble, promouvons des pratiques écologiques et garantissons l’accès à une eau propre pour tous.</p>
+        <a href="#contact" class="cta-button">Devenir Partenaire</a>
+    </section>
+
+    <section id="contact">
+        <div class="contact-text">
+            <h2><span>Contacts</span></h2>
+            <p>Nous sommes à votre disposition pour toute question.</p>
+        </div>
+                
+        <div class="contact-container">
+            <form action="submit-form.php" method="post" class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Votre email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" placeholder="Sujet du message" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+            
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2023 Okapi. Tous droits réservés.</p>
+            <div class="footer-links">
+                <a href="#">Politique de confidentialité</a>
+                <a href="#">Conditions d'utilisation</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
